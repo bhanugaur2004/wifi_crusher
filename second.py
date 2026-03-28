@@ -47,7 +47,7 @@ def show_all_wifi_passwords():
         print("No saved WiFi profiles found.")
         return
     
-    # Get password for each profile
+    # Get password for each profile and display
     found_passwords = 0
     for profile in saved_profiles:
         password = get_password_for_profile(profile)
